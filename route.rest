@@ -1,0 +1,27 @@
+
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/62cb417b2e566e2b2e7fc202
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "islo",
+    "subscribedToChannel" : "yeah "
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/62cb417b2e566e2b2e7fc202
+
+###
+PATCH http://localhost:3000/subscribers/62cb3cde2fdc8e052968ea44
+Content-Type: application/json
+{
+    "name" : "wowow"
+}
